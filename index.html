@@ -14,14 +14,20 @@
             font-family: 'Times New Roman', serif;
             line-height: 1.6;
             color: #000;
-            background: #ffffff;
+            background-color: #f9f9f9;
+            background: #090909;
             font-size: 12pt;
         }
-        .page {
+        .center {
+            text-align: center;
+        }
+        
+        .pages {
             width: 210mm;
             min-height: 297mm;
             margin: 0 auto;
             padding: 25mm;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
             background: white;
             margin-bottom: 10mm;
             position: relative;
@@ -142,59 +148,160 @@
             margin: 12px 0;
             line-height: 1.4;
         }
+        /* extra add css */
+        .logo-large {
+            width: 1.8104166666666666in;
+            height: 1.4590277777777778in;
+        }
+        .spaceree {
+            height: 20px;
+        }
+        .project-titleee {
+            font-size: 18pt;
+            line-height: 1.5;
+            margin: 20px 0;
+        }
+        .underlineee {
+            text-decoration: underline;
+        }
+        p{
+            text-align: center;
+        }
+        .signature-line {
+            border-bottom: 1px solid #000;
+            width: 200px;
+            display: inline-block;
+            margin: 0 10px;
+        }
+        
     </style>
 </head>
 <body>
     <!-- Page 1: Cover Page -->
-    <div class="page">
+    <div class="pages" style="padding-top:">
         <div class="college-info">
-            <h2>MOLANA AZAD COLLEGE ENGINEERING & TECHNOLOGI</h2>
+            <h2>MOLANA AZAD COLLEGE OF ENGINNERING & TECHNOLOGY</h2>
             <h3>Department of Computer Science & Engineering</h3>
-            <h4>MINOR PROJECT REPORT</h4>
-            <h4>V <SUP>TH</SUP> Semester</h4>
-            <h4>Academic Year 2024-2025</h4>
+            <div style="display: flex;">
+                <div style="margin-top: 10mm;">
+                    <img src="image1.png" alt="College Logo" class="logo logo-large">
+                </div>
+                <div style="margin-top: 30mm;">
+                    <h4>SBTE, PATNA, BIHAR</h4>
+                    <h4>Academic Year 2024-2025</h4>
+                    <h4>MINOR PROJECT REPORT</h4>
+                </div>
+                <div style="text-align: center; margin-top: 8mm;">
+                 <img src="image2.png" alt="SBTE Logo" class="logo logo-large">
+                </div>
+            </div>
+           <div>
+                <h1>on</h1>
+           </div>
+            <div style="text-align: center;">
+                <h1> <i> EXPENSE MANAGER ANDROID APPLICATION </i> </h1>
+                <h2>A Complete Financial Management Solution</h2>
+            </div>
+          
+           
         </div>
         
-        <div style="text-align: center; margin-top: 50mm;">
-            <h1>EXPENSE MANAGER ANDROID APPLICATION</h1>
-            <h2>A Complete Financial Management Solution</h2>
-        </div>
 
         <div style="margin: 40px 0;">
             <div style="font-size: 14pt; margin-bottom: 10px; text-align: center;"><strong>SUBMITTED BY</strong></div> <BR>
             <div style="text-align: center;">
-                <div style="font-size: 12pt; margin-bottom: 5px;">MD DILSHAD BILAL (23-CS-601)</div>
                 <div style="font-size: 12pt; margin-bottom: 5px;">MD ASIF ALAM (23-CS-008)</div>
-                <div style="font-size: 12pt; margin-bottom: 5px;">AMANAT ALI (23-CS-602)</div>
-                <div style="font-size: 12pt;">RITIK KUMAR (23-CS-020)</div>
+                <div style="font-size: 12pt; margin-bottom: 5px;">NAZISH AHMAD (23-CS-019)</div>
+                <div style="font-size: 12pt; margin-bottom: 5px;">RITIK KUMAR (23-CS-020)</div>
+                <div style="font-size: 12pt; margin-bottom: 5px;">MD DILSHAD BILAL (23-CS-601)</div>
+                <div style="font-size: 12pt;">AMANAT ALI (23-CS-602)</div>
             </div>
         </div>
 
-        <div style="text-align: center; margin-top: 30mm;">
-            <div style="font-size: 12pt;">Under the Guidance of</div>
-            <div style="font-size: 12pt; margin-top: 10px;"><strong>Dr. SHABBIR HASSAN</strong></div>
-            <div style="font-size: 12pt; margin-top: 20px;"><strong>Mr. HAZHAR EQUBAL</strong> (HOD)</div>
+        <div style="display: flex;">
+            <div style="text-align: right;">
+                <div style="font-size: 12pt; text-align: left;">Under the Guidance of</div>
+                <div style="font-size: 12pt; text-align: LEFT;"><strong>Dr. Shabbir Hasan</strong></div>
+            </div>
+            <div style="margin-left: 50%;">
+                <div style="font-size: 12pt; text-align: left;">HOD of</div>
+                <div style="font-size: 12pt; text-align: LEFT;"><strong>Mr. Mazhar Eqbal</strong></div>
+            </div>
         </div>
 
-        <div style="text-align: center; margin-top: 25mm;">
-            <div style="font-size: 12pt;">Department of Computer Science & Engineering</div>
-            <div style="font-size: 12pt;">Polytechnic College</div>
-            <div style="font-size: 11pt; margin-top: 10px;">December 2024</div>
+        <div style="text-align: center; margin-top: 15mm;">
+            <div style="font-size: 12pt;">Finall Year (5<sup>th</sup> Semester)</div>
+            <div style="font-size: 12pt;">Session 2023 - 2026</div>
         </div>
         <div class="page-number">1</div>
     </div>
 
-    <!-- Page 2: Certificate -->
-    <div class="page">
+    <!-- extra Page 2: Project Title Page -->
+        <div class="pages">
+            <div class="center">
+                <h2>A</h2>
+                <h2>MINOR PROJECT REPORT</h2>
+                <h3>on</h3>
+                <h1 class="project-titleee">"EXPENSE MANAGER ANDROID APPLICATION"</h1> 
+        
+                    <p>Submitted in partial fulfillment for the requirement of</p>
+                    <p><strong>DIPLOMA COURSE</strong></p>
+                    <p>In</p>
+                    <p><strong>COMPUTER SCIENCE</strong></p>
+                </div>
+                
+                <div class="spaceree"></div>
+                
+                <h4 class="center"><u>Under the Supervision of</u></h4>
+                
+                <div class="spaceree"></div>
+                
+                <p><strong>Guide</strong></p>
+                <p>[ Dr. SHABBIR HASSAN ]</p>
+              
+                
+                <div class="spaceree"></div>
+                
+                <!-- Logo 3 -->
+                 <div class="center">
+                <img src="image3.png" alt="College Logo" class="logo logo-medium">
+                </div>
+                <div class="spaceree"></div>
+                
+                <p><strong>SESSION 2023-2026</strong></p>
+                
+                <div class="spaceree"></div>
+                
+                <p><strong>DEPARTMENT OF COMPUTER SCIENCE</strong></p>
+                <p><strong>MAULANA AZAD COLLEGE OF ENGINEERING & TECHNOLOGY,</strong></p>
+                <p><strong>GORHNA P.O: NEORA, PATNA</strong></p>
+            <div class="page-number">2</div>
+            </div>
+        </div>
+        
+
+        
+
+    <!-- Page 3: Certificate -->
+    <div class="pages">
         <div class="header">
-            <h1>CERTIFICATE</h1>
+             <div class="center">
+                <h2>MAULANA AZAD COLLEGE OF ENGINEERING & TECHNOLOGY</h2>
+                
+                <!-- Logo 1 -->
+                <img src="image1.png" alt="College Logo" class="logo logo-small">
+                
+                <p><strong>DEPARTMENT OF COMPUTER SCIENCE</strong></p>
+                <p><strong>SESSION- 2023-2026</strong></p>
+            </div>
+            <h1> <u> CERTIFICATE </u> </h1>
         </div>
         
         <div class="section">
-            <p>This is to certify that the project report entitled <strong>"EXPENSE MANAGER ANDROID APPLICATION"</strong> submitted by <strong>MD DILSHAD BILAL (23-CS-601), MD ASIF ALAM (23-CS-008), AMANAT ALI (23-CS-602), and RITIK KUMAR (23-CS-020)</strong> in partial fulfillment of the requirements for the award of Diploma in Computer Science & Engineering of Polytechnic College is a bonafide record of the project work carried out by them under our supervision and guidance.</p>
+            <p>This is to certify that <strong>MD ASIF ALAM, NAZISH AHMAD, RITIK KUMAR, MD DILSHAD BILAL, AMANAT ALI.</strong> Student(s) of Third Year 5<sup>th</sup> semester In <strong>Computer Science</strong> branch has successfully completed the project work Entitled <strong>"EXPENSE MANAGER ANDROID APPLICATION"</strong>. This Technical Minor Project is hereby approved for submission towards partial fulfillment for the requirement of the <strong>DIPLOMA</strong> in <strong>COMPUTER SCIENCE</strong> from <strong>SBTE, PATNA, BIHAR.</strong></p>
         </div>
 
-        <div style="margin-top: 70mm;">
+        <div style="margin-top: 50mm;">
             <table class="signature-table">
                 <tr>
                     <td>
@@ -204,27 +311,110 @@
                     </td>
                     <td>
                         <strong>Head of Department</strong><br>
-                        Mr. HAZHAR EQUBAL<br>
+                        Mr. MAZHAR EQUBAL<br>
                         Department of CSE
                     </td>
                 </tr>
             </table>
         </div>
 
-        <div style="text-align: center; margin-top: 30mm;">
+        <div style="text-align: center;">
             <p><strong>External Examiner</strong></p>
             <p>_________________________</p>
         </div>
-        <div class="page-number">2</div>
+        <div class="page-number">3</div>
     </div>
 
-    <!-- Page 3: Abstract -->
-    <div class="page">
+    <!-- extra add page -->
+     <!-- Acknowledgment -->
+        <div class="pages">
+            <div class="center">
+                <h2>MAULANA AZAD COLLEGE OF ENGINEERING & TECHNOLOGY</h2>
+                
+                <!-- Logo 1 -->
+                <img src="image1.png" alt="College Logo" class="logo logo-small" style="margin-top: 10mm; margin-bottom: 10mm;">
+                
+                <p><strong>DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING</strong></p>
+                <p><strong>SESSION- 2023-2026</strong></p>
+                
+                <div class="spaceree"></div>
+                
+                <h2 class="underlineee">ACKNOWLEDGMENT</h2>
+                
+                <div class="spaceree"></div>
+            </div>
+            
+            <div style="font-size: 18pt; line-height: 1.5; margin: 20px 0;">
+                <div style="text-align: justify; margin-bottom: 20px; font-size: large;">
+                    We are very much thankful to our <strong>HOD Dr. HOD_NAME</strong> for providing us support and guidance to accomplish this project work.
+                    
+                    We are very grateful to our <strong>Project Guide Dr./Mr./Mrs. GUIDE_NAME</strong> for being instrumental in the completion of our project with his/her complete guidance.
+                    
+                    We also thank all the staff members of our college and technicians for their help in making this project a successful one.
+                    
+                    Finally, we take this opportunity to extend our deep appreciation to our family and friends, for all that they meant to us during the crucial times of the completion of our project. 
+                </div>
+                
+                <div style=" margin-top: 30px; font-size: large; font-weight: bold;">
+                    <div>MD ASIF ALAM (23-CS-008)</div>
+                    <div>NAZISH AHMAD (23-CS-019)</div>
+                    <div>RITIK KUMAR (23-CS-020)</div>
+                    <div>MD DILSHAD BILAL(23-CS-601)</div>
+                    <div>AMANAT ALI(23-CS-602)</div>
+                </div> 
+                <div class="page-number">4</div>
+            </div>
+        </div>
+
+         <!-- extra -->
+          <!-- Page 5: Approval Sheet -->
+        <div class="pages">
+            <div class="center">
+                <h2>MAULANA AZAD COLLEGE OF ENGINEERING & TECHNOLOGY</h2>
+                
+                <!-- Logo 1 -->
+                <img src="image1.png" alt="College Logo" class="logo logo-small" style="margin-top: 10mm; margin-bottom: 10mm;">
+                
+                <p><strong>DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING</strong></p>
+                <p><strong>SESSION- 2023-2026</strong></p>
+                
+                <div class="spacer"></div>
+                
+                <h2 class="underline" style="margin-top: 10mm; margin-bottom: 10mm;">APPROVAL SHEET</h2>
+                
+                <div class="spaceree"></div>
+            </div>
+            
+            <div class="content">
+                <p><em>This is to certify that</em> <strong>MD ASIF ALAM, NAZISH AHMAD, RITIK KUMAR, MD DILSHAD BILAL, AMANAT ALI.</strong>, <em>Student(s) of third year 5th semester in</em> <strong>COMPUTER SCIENCE</strong> <em>branch has successfully completed the Minor project work Entitled</em> <strong>EXPENSE MANAGER ANDROID APPLICATION</strong><em>.</em> <em>This Technical Project is hereby approved for submission towards partial fulfillment for the requirement of DIPLOMA in</em> <strong>COMPUTER SCIENCE</strong> <em>from</em><strong>, SBTE, PATNA, BIHAR.</strong></p>
+                
+                
+                
+                <div style="display: flex; justify-content: space-between; width: 80%; margin: 40px auto 0;">
+                    <div style="text-align: center;">
+                        <p style="margin-top: 60mm; text-align: left;">(INTERNAL EXAMINER)</p>
+                        <div class="spacer"></div>
+                        <p style="margin-top: 8mm; text-align: left;">Date:____________________</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <p style="margin-top: 60mm;text-align: right;">(EXTERNAL EXAMINER)</p>
+                        <div class="spaceree"></div>
+                        <p style="text-align: left;">Date:_____________________ </p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">5</div>
+        </div>
+        
+
+        
+    <!-- Page 6: Abstract -->
+    <div class="pages">
         <div class="header">
             <h1>ABSTRACT</h1>
         </div>
 
-        <div class="abstract-box">
+        <div class="abstract-box" style="margin-top: 30mm; margin-bottom: 30mm;">
             <p>The <strong>Expense Manager Android Application</strong> is a comprehensive financial management solution designed to help users track their daily income and expenses efficiently. In today's digital era, managing personal finances has become crucial for financial stability and growth. This application addresses the need for a simple, accessible, and efficient tool that enables users to monitor their financial activities seamlessly.</p>
             
             <p>The application features an intuitive user interface with core functionalities including income tracking, expense management, real-time balance calculation, and transaction history. Built using Java and SQLite database, it follows Material Design guidelines ensuring excellent user experience. The application works completely offline, ensuring data privacy and accessibility without internet dependency.</p>
@@ -238,57 +428,57 @@
             <h3>KEYWORDS</h3>
             <p>Android Development, Java, SQLite, Expense Management, Financial Tracking, Mobile Application, Material Design, Personal Finance</p>
         </div>
-        <div class="page-number">3</div>
+        <div class="page-number">6</div>
     </div>
 
-    <!-- Page 4: Table of Contents -->
-    <div class="page">
+    <!-- Page 7: Table of Contents -->
+    <div class="pages">
         <div class="header">
             <h1>TABLE OF CONTENTS</h1>
         </div>
         
         <div class="section">
             <ol>
-                <li>Introduction ......................................................................... 5</li>
-                <li>Literature Survey ................................................................. 6</li>
-                <li>System Analysis ................................................................... 7</li>
-                <li>System Design ..................................................................... 8</li>
-                <li>Implementation ................................................................... 9</li>
-                <li>Results and Screenshots .................................................... 10</li>
-                <li>Testing .............................................................................. 12</li>
-                <li>Future Scope ..................................................................... 13</li>
-                <li>Conclusion ........................................................................ 14</li>
-                <li>References ........................................................................ 15</li>
-                <li>Appendix ........................................................................... 16</li>
+                <li>Introduction ......................................................................... 8</li>
+                <li>Literature Survey ................................................................. 9</li>
+                <li>System Analysis ................................................................... 10</li>
+                <li>System Design ..................................................................... 11</li>
+                <li>Implementation ................................................................... 13</li>
+                <li>Results and Screenshots .................................................... 14</li>
+                <li>Testing .............................................................................. 16</li>
+                <li>Future Scope ..................................................................... 17</li>
+                <li>Conclusion ........................................................................ 18</li>
+                <li>References ........................................................................ 19</li>
+                <li>Appendix ........................................................................... 20</li>
             </ol>
         </div>
 
         <div class="section">
             <h3>LIST OF FIGURES</h3>
             <ol>
-                <li>System Architecture ......................................................... 8</li>
-                <li>Database Schema .............................................................. 8</li>
-                <li>Splash Screen ................................................................... 10</li>
-                <li>Main Dashboard ................................................................ 10</li>
-                <li>Add Transaction Screen ..................................................... 11</li>
-                <li>Transactions History ......................................................... 11</li>
-                <li>Settings Screen ................................................................. 11</li>
+                <li>System Architecture ......................................................... 11</li>
+                <li>Database Schema .............................................................. 12</li>
+                <li>Splash Screen ................................................................... 14</li>
+                <li>Main Dashboard ................................................................ 14</li>
+                <li>Add Transaction Screen ..................................................... 15</li>
+                <li>Transactions History ......................................................... 15</li>
+                <li>Settings Screen ................................................................. 15</li>
             </ol>
         </div>
 
         <div class="section">
             <h3>LIST OF TABLES</h3>
             <ol>
-                <li>Student Information .......................................................... 5</li>
-                <li>System Requirements ........................................................ 7</li>
-                <li>Test Cases ....................................................................... 12</li>
+                <li>Student Information .......................................................... 8</li>
+                <li>System Requirements ........................................................ 10</li>
+                <li>Test Cases ....................................................................... 16</li>
             </ol>
         </div>
-        <div class="page-number">4</div>
+        <div class="page-number">7</div>
     </div>
 
-    <!-- Page 5: Introduction -->
-    <div class="page">
+    <!-- Page 8: Introduction -->
+    <div class="pages">
         <div class="header">
             <h1>1. INTRODUCTION</h1>
         </div>
@@ -302,23 +492,29 @@
                     <th>Class</th>
                 </tr>
                 <tr>
-                    <td>MD DILSHAD BILAL</td>
-                    <td>23-CS-601</td>
-                    <td>Computer Science & Engineering</td>
-                </tr>
-                <tr>
                     <td>MD ASIF ALAM</td>
                     <td>23-CS-008</td>
                     <td>Computer Science & Engineering</td>
                 </tr>
-                <tr>
-                    <td>AMANAT ALI</td>
-                    <td>23-CS-602</td>
+                 <tr>
+                    <td>NAZISH AHMAD</td>
+                    <td>23-CS-019</td>
                     <td>Computer Science & Engineering</td>
                 </tr>
                 <tr>
                     <td>RITIK KUMAR</td>
                     <td>23-CS-020</td>
+                    <td>Computer Science & Engineering</td>
+                </tr>
+                <tr>
+                    <td>MD DILSHAD BILAL</td>
+                    <td>23-CS-601</td>
+                    <td>Computer Science & Engineering</td>
+                </tr>
+                
+                <tr>
+                    <td>AMANAT ALI</td>
+                    <td>23-CS-602</td>
                     <td>Computer Science & Engineering</td>
                 </tr>
             </table>
@@ -345,51 +541,51 @@
             <h3>1.4 PROJECT SCOPE</h3>
             <p>The Expense Manager application provides comprehensive financial management capabilities including income recording, expense tracking, balance calculation, and transaction history. The application is designed for Android platform and supports devices running Android 5.0 (Lollipop) and above.</p>
         </div>
-        <div class="page-number">5</div>
+        <div class="page-number">8</div>
     </div>
 
-    <!-- Page 6: Literature Survey -->
-    <div class="page">
+    <!-- Page 9: Literature Survey -->
+    <div class="pages">
         <div class="header">
             <h1>2. LITERATURE SURVEY</h1>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin-top: 10mm; margin-bottom: 10mm;">
             <h3>2.1 EXISTING SYSTEMS</h3>
             <p>Several expense management applications exist in the market, each with their own strengths and limitations. Applications like Wallet, Money Manager, and Expense Tracker provide basic functionality but often suffer from complex interfaces, limited offline capabilities, or privacy concerns due to cloud dependency.</p>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin-top: 10mm; margin-bottom: 10mm;">
             <h3>2.2 TECHNOLOGIES REVIEW</h3>
             <div class="features-grid">
-                <div class="feature-item">
+                <div class="feature-item" style="margin-top: 10mm; margin-bottom: 10mm;">
                     <h4>Android Development</h4>
                     <p>Android Studio with Java programming language provides robust development environment with extensive libraries and community support.</p>
                 </div>
-                <div class="feature-item">
+                <div class="feature-item" style="margin-top: 10mm; margin-bottom: 10mm;">
                     <h4>SQLite Database</h4>
                     <p>Lightweight, serverless database ideal for mobile applications with ACID compliance and zero configuration requirements.</p>
                 </div>
-                <div class="feature-item">
+                <div class="feature-item" style="margin-top: 10mm; margin-bottom: 10mm;">
                     <h4>Material Design</h4>
                     <p>Google's design language providing consistent, intuitive user experience across different Android devices.</p>
                 </div>
-                <div class="feature-item">
+                <div class="feature-item" style="margin-top: 10mm; margin-bottom: 10mm;">
                     <h4>XML Layouts</h4>
                     <p>Declarative approach for creating user interfaces with responsive design capabilities for various screen sizes.</p>
                 </div>
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" >
             <h3>2.3 RESEARCH GAP</h3>
             <p>While numerous financial applications exist, there is a significant gap in applications that combine simplicity with comprehensive features while maintaining complete offline functionality and data privacy. Most applications either oversimplify or overcomplicate the user experience.</p>
         </div>
-        <div class="page-number">6</div>
+        <div class="page-number">9</div>
     </div>
 
     <!-- Page 7: System Analysis -->
-    <div class="page">
+    <div class="pages">
         <div class="header">
             <h1>3. SYSTEM ANALYSIS</h1>
         </div>
@@ -448,19 +644,19 @@
                 <li><strong>Portability:</strong> Compatible with various Android versions</li>
             </ul>
         </div>
-        <div class="page-number">7</div>
+        <div class="page-number">10</div>
     </div>
 
-    <!-- Page 8: System Design -->
-    <div class="page">
+    <!-- Page 11: System Design -->
+    <div class="pages">
         <div class="header">
             <h1>4. SYSTEM DESIGN</h1>
         </div>
 
         <div class="section">
             <h3>4.1 SYSTEM ARCHITECTURE</h3>
-            <div class="screenshot">
-                <img src="architecture-diagram.png" alt="System Architecture">
+            <div class="screenshot" >
+                <img src="architecture-diagram.png" alt="System Architecture" height="400px" width="300px">
                 <div class="caption">Figure 1: System Architecture Diagram</div>
             </div>
             <div class="architecture">
@@ -481,11 +677,16 @@ ANDROID APPLICATION ARCHITECTURE
     └── SQLite Database
             </div>
         </div>
+        <div class="page-number">11</div>
+    </div>
 
+<!-- page 12: DataBase design -->
+
+    <div class="pages">
         <div class="section">
             <h3>4.2 DATABASE DESIGN</h3>
             <div class="screenshot">
-                <img src="database-schema.png" alt="Database Schema">
+                <img src="database-schema.png" alt="Database Schema" height="400px" width="300px">
                 <div class="caption">Figure 2: Database Schema</div>
             </div>
             <div class="architecture">
@@ -500,11 +701,11 @@ CREATE TABLE transactions (
 );
             </div>
         </div>
-        <div class="page-number">8</div>
+        <div class="page-number">12</div>
     </div>
 
-    <!-- Page 9: Implementation -->
-    <div class="page">
+    <!-- Page 13: Implementation -->
+    <div class="pages">
         <div class="header">
             <h1>5. IMPLEMENTATION</h1>
         </div>
@@ -552,68 +753,73 @@ CREATE TABLE transactions (
                 <li><strong>Utilities:</strong> Theme and validation helper classes</li>
             </ul>
         </div>
-        <div class="page-number">9</div>
+        <div class="page-number">13</div>
     </div>
 
     <!-- Page 10: Results and Screenshots -->
-    <div class="page">
+    <div class="pages">
         <div class="header">
             <h1>6. RESULTS AND SCREENSHOTS</h1>
         </div>
 
         <div class="section">
             <h3>6.1 APPLICATION INTERFACE</h3>
-            <div class="screenshot">
-                <img src="splash-screen.jpeg" alt="Splash Screen">
-                <div class="caption">Figure 3: Splash Screen with 5-second animation</div>
+            <div style="display: flex;">
+                <div style="border-right: solid black 2px ;">
+                    <div class="screenshot" >
+                        <img src="splash-screen.jpeg" alt="Splash Screen" height="500px" style="margin-top: 5mm;">
+                        <div class="caption">Figure 3: Splash Screen with 5-second animation</div>
+                        <p style="margin-top: 5mm; "><strong>Description:</strong> Professional splash screen displaying application branding with smooth fade animations during app initialization.</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="screenshot">
+                        <img src="main-dashboard.jpg" alt="Main Dashboard" height="500px">
+                        <div class="caption">Figure 4: Main Dashboard with balance display</div>
+                    </div>
+                    <p><strong>Description:</strong> Home screen showing total balance, income/expense buttons, and navigation hints for swipe gestures.</p>
+                </div>
+            
             </div>
-            <p><strong>Description:</strong> Professional splash screen displaying application branding with smooth fade animations during app initialization.</p>
         </div>
-
-        <div class="section">
-            <div class="screenshot">
-                <img src="main-dashboard.jpg" alt="Main Dashboard">
-                <div class="caption">Figure 4: Main Dashboard with balance display</div>
-            </div>
-            <p><strong>Description:</strong> Home screen showing total balance, income/expense buttons, and navigation hints for swipe gestures.</p>
-        </div>
-        <div class="page-number">10</div>
+        <div class="page-number">14</div>
     </div>
 
     <!-- Page 11: More Screenshots -->
-    <div class="page">
+    <div class="pages" style="padding: 100px 40px;">
         <div class="header">
             <h1>RESULTS CONTINUED</h1>
         </div>
-
-        <div class="section">
-            <div class="screenshot">
-                <img src="add-transaction.jpg" alt="Add Transaction Screen">
-                <div class="caption">Figure 5: Add Transaction Screen</div>
+        <div style="display: flex;">
+            <div class="section">
+                <div class="screenshot" style="margin-left: 3mm;">
+                    <img src="add-transaction.jpg" alt="Add Transaction Screen">
+                    <div class="caption">Figure 5: Add Transaction Screen</div>
+                </div>
+                <p><strong>Description:</strong> Form interface for adding new transactions with amount input, description field, and category selection.</p>
             </div>
-            <p><strong>Description:</strong> Form interface for adding new transactions with amount input, description field, and category selection.</p>
-        </div>
 
-        <div class="section">
-            <div class="screenshot">
-                <img src="transactions-history.jpg" alt="Transactions History">
-                <div class="caption">Figure 6: Transactions History Screen</div>
+            <div class="section" >
+                <div class="screenshot">
+                    <img src="transactions-history.jpg" alt="Transactions History">
+                    <div class="caption">Figure 6: Transactions History Screen</div>
+                </div>
+                <p><strong>Description:</strong> Comprehensive list view displaying all financial transactions in chronological order with visual indicators.</p>
             </div>
-            <p><strong>Description:</strong> Comprehensive list view displaying all financial transactions in chronological order with visual indicators.</p>
-        </div>
-
-        <div class="section">
-            <div class="screenshot">
-                <img src="settings-screen.jpg" alt="Settings Screen">
-                <div class="caption">Figure 7: Settings Screen</div>
+            <div class="section">
+                <div class="screenshot">
+                    <img src="settings-screen.jpg" alt="Settings Screen">
+                    <div class="caption">Figure 7: Settings Screen</div>
+                </div>
+                <p><strong>Description:</strong> Settings panel providing access to data management options and application configuration.</p>
             </div>
-            <p><strong>Description:</strong> Settings panel providing access to data management options and application configuration.</p>
         </div>
-        <div class="page-number">11</div>
+            
+        <div class="page-number">15</div>
     </div>
 
     <!-- Page 12: Testing -->
-    <div class="page">
+    <div class="pages">
         <div class="header">
             <h1>7. TESTING</h1>
         </div>
@@ -668,23 +874,23 @@ CREATE TABLE transactions (
         <div class="section">
             <h3>7.3 PERFORMANCE METRICS</h3>
             <ul>
-                <li><strong>App Launch Time:</strong> 2.1 seconds</li>
+                <li><strong>App Launch Time:</strong> 5 seconds FOR animation/splash-screen</li>
                 <li><strong>Database Operations:</strong> 45ms average</li>
                 <li><strong>Memory Usage:</strong> 42MB</li>
                 <li><strong>Battery Impact:</strong> Minimal (0.8% per hour)</li>
                 <li><strong>Compatibility:</strong> Android 5.0 to 14.0</li>
             </ul>
         </div>
-        <div class="page-number">12</div>
+        <div class="page-number">16</div>
     </div>
 
-    <!-- Page 13: Future Scope -->
-    <div class="page">
+    <!-- Page 17: Future Scope -->
+    <div class="pages">
         <div class="header">
             <h1>8. FUTURE SCOPE</h1>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>8.1 ENHANCEMENTS PLANNED</h3>
             <div class="features-grid">
                 <div class="feature-item">
@@ -706,7 +912,7 @@ CREATE TABLE transactions (
             </div>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>8.2 TECHNICAL UPGRADES</h3>
             <ul>
                 <li>Migration to Kotlin for modern Android development</li>
@@ -717,27 +923,27 @@ CREATE TABLE transactions (
             </ul>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>8.3 PLATFORM EXPANSION</h3>
             <p>The application can be extended to iOS platform using Flutter or React Native, and web platform for comprehensive multi-platform accessibility.</p>
         </div>
-        <div class="page-number">13</div>
+        <div class="page-number">17</div>
     </div>
 
-    <!-- Page 14: Conclusion -->
-    <div class="page">
+    <!-- Page 18: Conclusion -->
+    <div class="pages">
         <div class="header">
             <h1>9. CONCLUSION</h1>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>9.1 PROJECT ACHIEVEMENTS</h3>
             <p>The Expense Manager Android Application has been successfully developed and tested, meeting all the specified objectives. The application provides a robust, user-friendly platform for personal financial management with features including income/expense tracking, real-time balance calculation, transaction history, and intuitive navigation.</p>
             
             <p>The project demonstrates practical implementation of Android development concepts and provides valuable learning experience in mobile application development, database management, and user interface design.</p>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>9.2 LEARNING OUTCOMES</h3>
             <ul>
                 <li>Comprehensive understanding of Android application development lifecycle</li>
@@ -748,20 +954,20 @@ CREATE TABLE transactions (
             </ul>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>9.3 PROJECT SIGNIFICANCE</h3>
             <p>This project not only serves as an academic requirement but also provides a functional tool that can be used by individuals for effective financial management. The application addresses real-world needs and has potential for commercial deployment with future enhancements.</p>
         </div>
-        <div class="page-number">14</div>
+        <div class="page-number">18</div>
     </div>
 
-    <!-- Page 15: References -->
-    <div class="page">
+    <!-- Page 19: References -->
+    <div class="pages">
         <div class="header">
             <h1>10. REFERENCES</h1>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>10.1 BOOKS</h3>
             <ol>
                 <li>Phillips, B., & Stewart, C. (2023). Android Programming: The Big Nerd Ranch Guide.</li>
@@ -770,7 +976,7 @@ CREATE TABLE transactions (
             </ol>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>10.2 ONLINE RESOURCES</h3>
             <ol>
                 <li>Android Developer Documentation - developer.android.com</li>
@@ -780,7 +986,7 @@ CREATE TABLE transactions (
             </ol>
         </div>
 
-        <div class="section">
+        <div class="section" style="margin: 20mm;">
             <h3>10.3 RESEARCH PAPERS</h3>
             <ol>
                 <li>Smith, J. (2023). "Mobile Financial Applications: User Experience Analysis"</li>
@@ -788,11 +994,11 @@ CREATE TABLE transactions (
                 <li>Android Authority (2024). "Trends in Mobile App Development"</li>
             </ol>
         </div>
-        <div class="page-number">15</div>
+        <div class="page-number">19</div>
     </div>
 
-    <!-- Page 16: Appendix -->
-    <div class="page">
+    <!-- Page 20: Appendix -->
+    <div class="pages" >
         <div class="header">
             <h1>11. APPENDIX</h1>
         </div>
@@ -822,6 +1028,7 @@ src/
 │           ├── strings.xml
 │           └── colors.xml
             </div>
+            <div class="page-number">20</div>
         </div>
 
         <div class="section">
@@ -835,19 +1042,20 @@ src/
                 <li><strong>Week 11-12:</strong> Documentation and Finalization</li>
             </ul>
         </div>
-
+    </div>
+    <div class="pages">
         <div class="section">
             <h3>11.3 CONTACT INFORMATION</h3>
-            <p><strong>Project Team:</strong> MD DILSHAD BILAL, MD ASIF ALAM, AMANAT ALI, RITIK KUMAR</p>
+            <p><strong>Project Team:</strong> (" MD ASIF ALAM, NAZISH AHMAD, RITIK KUMAR, MD DILSHAD BILAL AND AMANAT ALI,") </p>
             <p><strong>Department:</strong> Computer Science & Engineering</p>
-            <p><strong>Institution:</strong> MOLANA AZAD COLLEGE ENGINEERING & TECHNOLOGI</p>
+            <p><strong>Institution:</strong> Molana Azad College of  Engineering & Technology</p>
             <p><strong>Academic Year:</strong> 2024-2025</p>
         </div>
 
         <div class="footer">
-            <p><strong>--- END OF REPORT ---</strong></p>
+            <p style="font-size: xx-large; font-family: 'Times New Roman', Times, serif; margin-top: 70%;"><strong>--- END OF REPORT ---</strong></p>
         </div>
-        <div class="page-number">16</div>
+        <div class="page-number">21</div>
     </div>
 
 </body>
